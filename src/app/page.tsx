@@ -162,9 +162,13 @@ export default function Home() {
                 </div>
               </div>
               <div className="reveal">
-                {/* Placeholder for device image */}
-                <div className="rounded-2xl shadow-2xl w-full h-80 bg-gray-700 flex items-center justify-center">
-                  <span className="text-3xl text-primary-green">[Device Image]</span>
+                {/* AirGuard device image */}
+                <div className="rounded-2xl shadow-2xl w-full h-80 overflow-hidden">
+                  <img 
+                    src="/AirguardOnTower.jpeg" 
+                    alt="AirGuard device mounted on tower" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
